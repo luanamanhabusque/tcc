@@ -1,6 +1,6 @@
-import React, {useEffect, useContext} from 'react';
+import React, {useEffect, useContext} from 'react'; 
 import {Container, LoadingIcon} from './styles';
-import {Text} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 import {UseNavigation} from '@react-navigation/native';
 import  AsyncStorage  from '@react-native-community/async-storage';
 

@@ -1,21 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
+import  React from 'react';
 
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import UserContextProvider from './src/Contexts/userContext';
+//import UserContextProvider from './src/Contexts/userContext';
 
 export default function App() {
   return (
-    <UserContextProvider>
+    <View style = {styles.container}>
+      <Text>App.js</Text>
 
-   </UserContextProvider>
+   </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#06D6A0',
     alignItems: 'center',
     justifyContent: 'center',
   },
