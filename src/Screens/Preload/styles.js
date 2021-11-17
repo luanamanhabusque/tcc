@@ -3,12 +3,12 @@ import { color } from 'react-native-reanimated';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-    background-color = #D1DE80;
+    background-color = #06D6A0;
     flex = 1;
     justify-content = center;
     align-items = center;
 `;
 
-export const LoadingIcon = style.ActivityIndicator`
+export const LoadingIcon = styled.ActivityIndicator`
     margin-top = 50px;
 `;
