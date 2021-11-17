@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Text} from 'react-native';
 import {UserContext} from '../../Contexts/userContext';
-import  AsyncStorage  from '@react-native-community/async-storage';
-import {useNavigation} from '@react-navigation/native';
+import  AsyncStorage  from 'react-native-community/async-storage';
+import {useNavigation} from 'react-navigation/native';
 import {
     Container,
     InputArea,

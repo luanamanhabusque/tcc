@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'style-components/native';
-import  AsyncStorage  from '@react-native-community/async-storage';
+import  AsyncStorage  from 'react-native-community/async-storage';
 import {UserContext} from '../../Contexts/userContext';
 
 const InputArea = styled.View`

@@ -1,12 +1,15 @@
-import  React from 'react';
+import React from 'react';
+import Home from './src/Screens/Home';
+
 
 import { StyleSheet, Text, View } from 'react-native';
 //import UserContextProvider from './src/Contexts/userContext';
 
 export default function App() {
+
   return (
     <View style = {styles.container}>
-      <Text>App.js</Text>
+      <Home {...Home}></Home>
 
    </View>
   );

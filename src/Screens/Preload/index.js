@@ -1,8 +1,8 @@
 import React, {useEffect, useContext} from 'react'; 
 import {Container, LoadingIcon} from './styles';
 import {Text, View, StyleSheet} from 'react-native';
-import {UseNavigation} from '@react-navigation/native';
-import  AsyncStorage  from '@react-native-community/async-storage';
+import {UseNavigation} from 'react-navigation/native';
+import  AsyncStorage  from 'react-native-community/async-storage';
 
 
 import bbLogo from '../../Assets/icon.png';
