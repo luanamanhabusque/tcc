@@ -5,8 +5,16 @@ import SignIn from '../Screens/SignIn';
 import SignUp from '../Screens/SignUp';
 import MainTab from './MainTab';
 
-
-const Stack = createStackNavigator();
+const Routes = createAppContainer(
+    createStackNavigator({
+      Preload: Preload,
+      SignIn: SignIn,
+      SignUp:SignUp,
+      MainTab:MainTab
+    })
+  );
+  
+  export default Routes;
 
 export default () => (
 <Stack.Navigator>

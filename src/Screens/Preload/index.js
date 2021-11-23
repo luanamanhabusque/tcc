@@ -1,38 +1,16 @@
-import React, {useEffect, useContext} from 'react'; 
-import {Container, LoadingIcon} from './styles';
-import {Text, View, StyleSheet} from 'react-native';
-import {UseNavigation} from 'react-navigation/native';
-import  AsyncStorage  from 'react-native-community/async-storage';
+import React from 'react'; 
+import { Button, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+const SplashSign = ({ navigation }) => (
+  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+   <a href="navigation.navigate('SignIn') ">Go to Details</a>
+  </View>
+);
 
-import bbLogo from '../../Assets/icon.png';
-
-bbLogo = LoadingIcon(bbLogo);
-
-export default() => {
-    const navigation = UseNavigation();
-    useEffect(()=>{
-        const checkToken =async()=>{
-
-           // const token = await AsyncStorage.getItem('token');
-            //if(token !== null){
-                //chamar api pra validar token
-          //  }
-            //else {
-                //navegar para o login se ele não tiver token
-                navigation.navigate('SignIn');
-           // }
-
-            
-        }
-         checkToken();
-
-    },[]);
-    
-    return (
-    <Container>
-      <bbLogo width = "100%" height = "160"></bbLogo>
-
-    </Container>
-    );
+Page1.navigationOptions = {
+  title: 'SignIn',
 }
+
+export default Splash;

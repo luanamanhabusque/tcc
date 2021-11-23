@@ -4,11 +4,11 @@
     "slug": "TCC-me",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./Assets/icon.jpg",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#06D6A0"
+      "image": "./Assets/splash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#0000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
