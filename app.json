@@ -4,9 +4,9 @@
     "slug": "TCC-me",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./Assets/icon.jpg",
+    "icon": "./Assets/icon.png",
     "splash": {
-      "image": "./Assets/splash.jpg",
+      "image": "./Assets/icon.png",
       "resizeMode": "cover",
       "backgroundColor": "#0000"
     },
